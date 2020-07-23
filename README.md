@@ -3,7 +3,7 @@ OpusPacketのstreamを返します。
 
 ## セルフホスト(ビルド)
 ```
-git clone --depth 1 https://gitlab.com/guild-utils-j/mixer.git
+git clone --depth 1 https://githab.com/guild-utils/mixer.git
 docker build -t guj-mixer .
 ```
 ## ライセンス
