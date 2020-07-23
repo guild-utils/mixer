@@ -1,0 +1,1 @@
+docker run -d --restart always -v /root/keys:/keys --hostname guj-mixer --net=host --env-file=.env --name guj-mixer tignear/guj-mixer

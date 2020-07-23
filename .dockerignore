@@ -1,0 +1,14 @@
+**/node_modules
+.git
+**/*.env
+**/dist
+
+**/tsconfig.tsbuildinfo
+*.lib
+*.so
+*.obj
+*.so
+**/out
+**/.vs
+/scripts
+/docker
