@@ -344,7 +344,6 @@ public:
                close(ptr->fd);
                continue;
             }
-            printf("%d/%d\n", n, nfds);
             if (FdToWriter(ptr->fd, ptr->writer))
             {
                epoll_ctl(epollfd, EPOLL_CTL_DEL, ptr->fd, NULL);
